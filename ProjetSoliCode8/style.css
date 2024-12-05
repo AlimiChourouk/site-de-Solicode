@@ -1,0 +1,518 @@
+*{
+    margin: 0%;
+    padding: 0%;
+ box-sizing: border-box;
+ scroll-behavior:smooth;
+}
+/* la partier Header */
+#navHeader{
+   display: flex;
+   justify-content: space-between;
+   padding: 1% 5%;
+   list-style: none;
+   color: #FFFDFD;
+   background-color: #3984D5;
+}
+#navHeader li a {
+  text-decoration: none;
+  color: #FFFDFD;
+}
+#navHeader li a :hover {
+  color: #FFFDFD;
+}
+#buttonInscription{
+    padding: 0.4%;
+    color: #FFFDFD;
+    background-color:#F2B705;
+    border: #F2B705;
+   
+}
+.liButtonHeader{
+    cursor: pointer;
+
+}
+#buttonInscription:hover{
+    background-color: #97750f;
+}
+#divimgLogoButton{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFDFD;
+}
+#imgLogo{
+    width: 70px;
+}
+#buttonContact{
+ margin-top: 10px;
+ margin-right: 5%;
+ height: 20px;
+ background-color: #FFFDFD;
+ border: #FFFDFD;
+ cursor: pointer;
+ font-size: large;
+}
+/* la partier Header */
+
+/* la partier img Header   */
+.Accueil {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden; 
+  }
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    animation: fade-in-out 20s infinite;
+  }
+  .background1 {
+    background-image: url("img/background1.png");
+    animation-delay: 0s;
+  }
+  .background2 {
+    background-image: url("img/background2.png");
+    animation-delay: 10s;
+  }
+  .text-content {
+    position: absolute; 
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+  }
+  
+  .AccueilTitle {
+    font-size: 3.5em;
+    margin-top: 30px;
+    align-self: flex-start;
+    margin-left: 25%;
+    text-transform: uppercase; 
+    animation: fade-in-out-text 2s ease-in-out ;
+    animation-delay: 0s;
+  }
+  
+  #para1Accueil {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    animation: fade-in-out-text 2s ease-in-out ;
+    animation-delay: 0s;
+  }
+  
+  #para2Accueil {
+    margin-bottom: 20px;
+    font-size: 30px;
+    margin-left: 27%;
+    animation: fade-in-out-text 4s ease-in-out ;
+    animation-delay: 0s;
+  }
+  
+  #para3Accueil {
+    margin-bottom: 20px;
+    font-size: 30px;
+    margin-left: 42%;
+    animation: fade-in-out-text 4s ease-in-out ;
+    animation-delay: 0s;
+  }
+  
+  #para4Accueil {
+    margin-bottom: 20px;
+    font-size: 30px;
+    margin-left: 80%;
+    animation: fade-in-out-text 6s ease-in-out ;
+    animation-delay: 0s;
+  }
+  @keyframes fade-in-out {
+    0% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    10% {
+      opacity: 1;
+      transform: scale(1.05);
+    }
+    40% {
+      opacity: 1;
+      transform: scale(1.05);
+    }
+    50% {
+      opacity: 0.9;
+      transform: scale(1.06);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1.07);
+    }
+  }
+  @keyframes fade-in-out-text { 
+    0% {
+      opacity: 0;
+      transform: translateY(10px); 
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(-10px); 
+    }
+  }
+/* la partier img Header */
+
+/* la partier Nos Valeurs */
+#nosValeurs{
+   
+    padding: 19px 20px;
+    margin-top: 30px;
+    width:1230px;
+    height: 130PX;
+    font-size:large;
+}
+#valeurs-list{
+    display: flex;
+  
+}
+#TireNosValeur{
+    display: flex;
+    justify-content: center;
+     color: #008DFA;
+
+}
+.valeur{
+   margin: 19px ;
+   border-radius: 10% ;
+   margin-right: 20px;
+   padding-left: 1%;
+   padding-right: 0.5%;
+   background-color: #5690CF;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.valeur p{
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+.valeur h4{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+/* la partier Nos Valeurs */
+
+/* la partier Qui sommes-nous ? */
+       #asidequiNous{
+        background-color: #ffffff;
+        width: 100%;
+        margin-top: 13%;
+        margin-bottom: 100px;
+       }
+       .imgPresontation2{
+        border-radius: 10%;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+       }
+       #imgPresontation1{
+        border-radius: 10%;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+       }
+#presentation{
+    display: flex;
+    justify-content: space-around;
+}
+#pitreParahraphe{
+    display: flex;
+    flex-direction: column;
+    margin-left: 160px;
+    font-size:large;
+}
+#pitreParahraphe p {
+    margin-top: 50px;
+}
+#pitreParahraphe h2 {
+    color: #008DFA;
+    margin-top: 9%;
+    margin-left: 14%;
+}
+#imgPresontation1{
+width: 300px;
+height: 360px;
+
+}
+#imgPresontation2{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgPresontation2{
+    width: 300px;
+    margin-left: 200PX;
+    height: 360px;
+}
+/* la partier Qui sommes-nous ? */
+
+/*   la partier de formation*/
+.container{
+  margin: 2% 0 0 0;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.DéveloppementMobile{
+  background-image: url(img/img1.png);
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  border: 2px solid rgba(225, 225, 225, 0.6); 
+  width: 25%; 
+  height: 450px; 
+  color: #FFFDFD;
+  align-content: center;
+}
+.DéveloppementMobile:hover{ 
+  width: 90%;
+}
+.DéveloppementWeb{
+  background-image: url(img/img2.jpg);
+  background-size: cover; 
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  border: 2px solid rgba(225, 225, 225, 0.6); 
+  width: 25%; 
+  height: 450px; 
+  color: #FFFDFD;
+  align-content: center;
+}
+.DéveloppementWeb:hover{ 
+  width: 70%;
+
+}
+.DéveloppementWeb h2{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.DéveloppementMobile h2{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.DéveloppementWeb p{
+  opacity: 0;
+}
+.DéveloppementWeb:hover p{
+      opacity: 1;
+      font-size: 18px;
+      width: 50%;
+      text-align: center;
+      margin-top: 3%;
+      margin-left: 25%;
+      background-color: #F2B705;
+      border-radius: 40%;
+      height: 20%;
+      padding-top: 2%;
+  
+}
+.DéveloppementMobile p{
+  opacity: 0;
+}
+.DéveloppementMobile:hover p{
+  opacity: 1;
+  font-size: 18px;
+  width: 50%;
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 25%;
+  background-color: #F2B705;
+  border-radius: 40%;
+  height: 20%;
+  padding-top: 2%;
+}
+#FORMATION{
+  display: flex;
+  justify-content: center;
+   color: #008DFA;
+   margin-top: 93px;
+}
+/*   la partier de formation*/
+
+/*la partier de Activités*/
+#activitesArticle{
+    display: flex;
+    background-color: #F2B705 ;
+    margin-bottom: 100px;
+    margin-top: 6%;
+}
+#activitiesDescription {
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-top: 5%;
+    font-size:large;
+}
+#activitiesDescription h2{
+  color: #008DFA;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+#imdActivites{
+  width: 8000px;
+  height: 444px;  
+}
+/* la partier de Activités*/
+/* la partier SOLICODE EN CHIFFRES */
+#listeChiffres{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  font-size: large;
+}
+#titreSolicodeheffres{
+  margin-top: 100px;
+   margin-left: 500px;
+   color: #008DFA;
+   font-size: large;
+}
+.imgchiffre{
+  width: 100px;
+  height: 100px;
+}
+.CHIFFRESolicode{
+  font-size: 30px;
+  margin-left: 10%;
+}
+.CHIFFRESolicode4{
+  margin-left: 20%;
+}
+/* la partier SOLICODE EN CHIFFRES */
+/* la partier de contact */
+#Contactitre{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+#Contactitre img{
+  margin-left: 40%;
+  width: 115px;
+  margin-top: 32px;
+}
+#Contactitre h2{
+margin-top: 80px;
+padding-left: 1%;
+font-size: 40px;
+color: #008DFA;
+}
+.ContactContenu{
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  width: 50%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+}
+.ContactContenu img{
+  width: 30px;
+  height: 30px;
+}
+.ContactContenu1{
+  display: flex;
+  flex-direction: row;
+  margin: 1%;
+}
+.ContactContenu1 span{
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.Contact{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.Contactimage{
+  width: 35%;
+  margin-left: 2%;
+}
+.ContactContenu p{
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+.ContactContenu button:hover{
+  background-color: #F2B705;
+  color: #000000;
+  padding: 6px;
+  width: 80%;
+  border:#F2B705 ;
+  border-radius: 25px;
+  margin-left: 17%;
+  box-shadow: 0px 2px 2px 4px;
+  margin-top: 15%;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 20px;
+}
+.ContactContenu button{
+  background-color: #F2B705;
+  color: #000000;
+  padding: 6px;
+  width: 80%;
+  border:#F2B705 ;
+  border-radius: 25px;
+  margin-left: 17%;
+  margin-top: 15%;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 20px;
+}
+iframe{
+  width: 90%;
+}
+/* la partier de contact */
+/*  la partier de  footer */
+footer{
+  display: flex;
+  flex-direction: row;
+ width: 100%;
+ height: 70px;
+ margin-top: 1%;
+}
+.footercontenu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: 42%;
+  padding-right: 1%;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.fin{
+  margin-top: 1px;
+  display: flex;
+  justify-content: space-between;
+  /* border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px; */
+}
+.fin span{
+  color: #807e7e;
+}
+.finimg{
+  display: flex;
+  justify-content: flex-end;
+  width: 30%;
+  height: 30%;
+  margin-top: 20px;
+  margin-right: 9px;
+}
+.finimg img{
+  width: 10%;
+  margin-left: 30px;
+}
+.fin span{
+  margin-top: 40px;
+  margin-left: 2%;
+}
+footer img{
+  margin-left: 2%;
+}
+/*  la partier de  footer */
