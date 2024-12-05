@@ -359,6 +359,16 @@ height: 360px;
 #imdActivites{
   width: 8000px;
   height: 444px;  
+  animation-name: aciviterImage;
+  animation-duration: 3s;
+}
+@keyframes aciviterImage{
+   from{
+    width: 0px;
+   }
+   to{
+    width: 8000px;
+   }
 }
 /* la partier de Activités*/
 /* la partier SOLICODE EN CHIFFRES */
